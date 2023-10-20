@@ -3,7 +3,7 @@ import inference_mamdani
 import fuzzy_operators
 import streamlit as st
 
-crisp = [22, 185, 20, 50_000]
+crisp = [50, 4, 25]
 inference_mamdani.preprocessing(model.input_lvs, model.output_lv)
 result = inference_mamdani.process(
     model.input_lvs, model.output_lv, model.rule_base, crisp
